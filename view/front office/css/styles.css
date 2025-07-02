@@ -1,0 +1,106 @@
+/* Font and General Body Styling */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header .container {
+    text-align: center;
+    background-color: #6E332C;
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+}
+
+header h2 {
+    font-size: 20px;
+    margin: 10px 0 0;
+    font-weight: 400;
+}
+
+/* Quiz Section Styling */
+.page-section {
+    width: 100%;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h2.text-center {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6E332C;
+    margin-bottom: 20px;
+}
+
+/* Question Box Styling */
+.question-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.question-box h4 {
+    font-size: 18px;
+    color: #6E332C;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button Styling */
+button {
+    background-color: #6E332C;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a2a26;
+}
+
+/* No Questions Available Styling */
+p {
+    color: #e63946;
+    font-size: 16px;
+    text-align: center;
+}
